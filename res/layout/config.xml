@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:text="@string/tag"
+		android:textStyle="bold"/>
+
+	<CheckBox android:id="@+id/cfg_active"
+		android:layout_height="wrap_content"
+		android:text="@string/cfg_active"
+		android:layout_marginTop="30dip"
+		android:layout_width="fill_parent"
+		android:layout_marginRight="30dip"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/cfg_volume"
+		android:textSize="20dip"
+		android:layout_marginLeft="10dip"
+		android:layout_marginTop="30dip"/>
+
+	<SeekBar android:id="@+id/cfg_volume"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_marginRight="30dip"
+		android:layout_marginLeft="10dip"
+		android:max="100"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/cfg_speed"
+		android:textSize="20dip"
+		android:layout_marginLeft="10dip"
+		android:layout_marginTop="30dip"/>
+
+	<SeekBar android:id="@+id/cfg_speed"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:layout_marginRight="30dip"
+		android:layout_marginLeft="10dip"
+		android:max="200"/>
+
+	<ImageButton android:id="@+id/cfg_play"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:src="@drawable/play_code"
+		android:layout_marginTop="30dip"
+		android:layout_marginLeft="10dip"
+		android:onClick="onClick"/>
+
+</LinearLayout>

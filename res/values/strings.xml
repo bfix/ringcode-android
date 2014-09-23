@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--  application -->
+	<string name="app_name">RingCode</string>
+	<string name="tag">RingCode v1.1,   (c) 2010-2014 by Bernd Fix   &gt;Y&lt;</string>
+
+	<!--  configuration -->
+	<string name="title_config">Configuration</string>
+	<string name="cfg_active">Play code on incoming calls</string>
+	<string name="cfg_volume">Volume</string>
+	<string name="cfg_speed">Speed</string>
+	
+	<!-- list -->
+	<string name="title_list">Assignments</string>
+	<string name="menu_insert">Insert</string>
+	<string name="menu_delete">Delete</string>
+
+	<!-- editor (old/new) -->	
+	<string name="title_editor">Editor</string>
+	<string name="title_edit">Edit assignment</string>
+	<string name="title_create">Create new assignment</string>
+	<string name="edit_number">Phone number:</string>
+	<string name="edit_code">Assigned morse code:</string>
+	<string name="edit_active">Active</string>
+	<string name="btn_play">Play</string>
+	<string name="menu_revert">Revert</string>
+	<string name="menu_discard">Discard</string>
+	<string name="menu_pick">Pick</string>
+	<string name="unknown">(Unknown number)</string>
+	<string name="no_phone">No phone number for contact available!</string>
+	<string name="pick_num">Pick phone number</string>
+
+</resources>
