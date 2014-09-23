@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	package="org.hoi_polloi.android.ringcode"
-	android:versionName="1.1c" android:versionCode="4">
+	android:versionName="1.1" android:versionCode="11">
 	<application android:icon="@drawable/icon" android:label="@string/app_name">
-		<provider android:name=".Repository" android:authorities="ch.jeejah.android.ringcode.RingCode" />
+		<provider android:name=".Repository" android:authorities="org.hoi_polloi.android.ringcode.RingCode" />
 		<activity android:name=".Tabulator" android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
